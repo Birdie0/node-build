@@ -1,0 +1,15 @@
+before_install_package() {
+  build_package_warn_eol "$1"
+}
+
+
+binary darwin-x64 "https://nodejs.org/dist/v10.16.0/node-v10.16.0-darwin-x64.tar.xz#122254e525983120ecbd0e7873c6103e9c98517042bf672dcfd96fc91ecaa546"
+binary linux-arm64 "https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-arm64.tar.xz#ae2e74ab2f5dbff96bf0b7d8457004bf3538233916f8834740bbe2d5a35442e5"
+binary linux-armv6l "https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-armv6l.tar.xz#6900a09f1547068b17b4844047f7f2f7defedeeef82220225357d90e6ca7a59f"
+binary linux-armv7l "https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-armv7l.tar.xz#3a3710722a1ce49b4c72c4af3155041cce3c4f632260ec8533be3fc7fd23f92c"
+binary linux-ppc64le "https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-ppc64le.tar.xz#b26136556fa79a3b58d0864afb455eb0c581647bd059999c69c42d27ef5afe7a"
+binary linux-s390x "https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-s390x.tar.xz#e8202e285a88be9b53bbf50cfae2f08fff2b1ae3597893e4049c9dff3e4b9b14"
+binary linux-x64 "https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-x64.tar.xz#1827f5b99084740234de0c506f4dd2202a696ed60f76059696747c34339b9d48"
+binary sunos-x64 "https://nodejs.org/dist/v10.16.0/node-v10.16.0-sunos-x64.tar.xz#7370587b6f19b6df6109b39ec73ac77f233702fdb75b5eb7060a08098c316b08"
+
+install_package "node-v10.16.0" "https://nodejs.org/dist/v10.16.0/node-v10.16.0.tar.xz#18e37f891d10ea7fbc8f6410c444c2b1d9cc3cbbb1d35aa9c41f761816956608"
