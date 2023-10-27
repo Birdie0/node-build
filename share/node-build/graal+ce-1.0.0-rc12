@@ -1,0 +1,4 @@
+echo "This package only contains compiled binaries."
+echo "If no binary matches your platform, source compilation will not be attempted."
+
+install_package "graal+ce-1.0.0-rc12" "#" graal
