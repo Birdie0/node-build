@@ -9,12 +9,11 @@
 
 "@nodenv/node-build-update-defs@github:Birdie0/node-build-update-defs":
   version "2.11.0"
-  resolved "https://registry.yarnpkg.com/@nodenv/node-build-update-defs/-/node-build-update-defs-2.11.0.tgz#a77abda8757dfdf8843b8a5409b01a5ded39a193"
-  integrity sha512-YU1GA0Jy5BWQ5cFHHFHieBGt2rQjdZquDbqYyupcRY3hv295Dor5gB+WRc03b6kWuweuwlBv6LF7yiiXwpe2WA==
+  resolved "https://codeload.github.com/Birdie0/node-build-update-defs/tar.gz/a6b649e6bbc25cb6a22490c9958723262577d42f"
 
 "bats-assert@github:jasonkarns/bats-assert-1":
-  version "2.0.0"
-  resolved "https://codeload.github.com/jasonkarns/bats-assert-1/tar.gz/8200039faf9790c05d9865490c97a0e101b9c80f"
+  version "2.1.0"
+  resolved "https://codeload.github.com/jasonkarns/bats-assert-1/tar.gz/e2d855bc78619ee15b0c702b5c30fb074101159f"
 
 bats-mock@^1.0.1:
   version "1.0.1"
@@ -23,7 +22,7 @@ bats-mock@^1.0.1:
 
 "bats-support@github:jasonkarns/bats-support":
   version "0.3.0"
-  resolved "https://codeload.github.com/jasonkarns/bats-support/tar.gz/004e707638eedd62e0481e8cdc9223ad471f12ee"
+  resolved "https://codeload.github.com/jasonkarns/bats-support/tar.gz/9bf10e876dd6b624fe44423f0b35e064225f7556"
 
 bats@^0.4.2:
   version "0.4.2"
