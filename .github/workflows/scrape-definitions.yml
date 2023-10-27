@@ -6,6 +6,9 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v3
@@ -28,7 +31,6 @@ jobs:
         echo "::set-output name=message::${msg//$'\n'/'%0A'}"
     - uses: peter-evans/create-pull-request@v3
       with:
-        token: ${{ secrets.BOT_TOKEN }}
         branch: latest-scraped-definitions
         title: 'Scraped latest definitions'
         body: ${{ steps.log.outputs.message }}
