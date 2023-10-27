@@ -1,0 +1,15 @@
+before_install_package() {
+  build_package_warn_eol "$1"
+}
+
+
+binary darwin-x64 "https://nodejs.org/dist/v5.4.0/node-v5.4.0-darwin-x64.tar.xz#d30efc022f6f893aa452c55a04832e44dda208c887230bb49d12a0bbeb3d0e95"
+binary linux-arm64 "https://nodejs.org/dist/v5.4.0/node-v5.4.0-linux-arm64.tar.xz#c29e7d39457375b9bafd078019a7efa116d1aa2536a4d2af542e070fb49ef9f9"
+binary linux-armv6l "https://nodejs.org/dist/v5.4.0/node-v5.4.0-linux-armv6l.tar.xz#30c3c3d00e117cfe8afc3f19ae67ca00d129b14c085d6b6fd1c27175b350be53"
+binary linux-armv7l "https://nodejs.org/dist/v5.4.0/node-v5.4.0-linux-armv7l.tar.xz#1307e47e10d230cfbaf0eadb8bcfcf24bccca90108f2b3f91d2944d6739528e3"
+binary linux-x64 "https://nodejs.org/dist/v5.4.0/node-v5.4.0-linux-x64.tar.xz#ca1d6567716b47441c4f38ed344b00ba9fc48f83b333edfa5bc6b54d9253279f"
+binary linux-x86 "https://nodejs.org/dist/v5.4.0/node-v5.4.0-linux-x86.tar.xz#5e06288b4a816d0d32686d40734745cf04259d54392e41bd1853d5a84bffa324"
+binary sunos-x64 "https://nodejs.org/dist/v5.4.0/node-v5.4.0-sunos-x64.tar.xz#9748663f02aedcbebd0e0dcfbe34c37ac9dc9e4330b6ad73258deb8c104be074"
+binary sunos-x86 "https://nodejs.org/dist/v5.4.0/node-v5.4.0-sunos-x86.tar.xz#a664e69f12222d28cd8476faa950a2859367a9c200fdad415b59caf479498b7f"
+
+install_package "node-v5.4.0" "https://nodejs.org/dist/v5.4.0/node-v5.4.0.tar.xz#744a31979b7c48a9c605fbfa7c159fcd60732ce27061671fe03847ffe448a5a3"
