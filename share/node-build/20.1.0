@@ -1,0 +1,9 @@
+binary darwin-arm64 "https://nodejs.org/dist/v20.1.0/node-v20.1.0-darwin-arm64.tar.xz#e2caf635cbb9dd67c1b528fa8cfbffcb1dac9ae90fcce71f2832488adc474c17"
+binary darwin-x64 "https://nodejs.org/dist/v20.1.0/node-v20.1.0-darwin-x64.tar.xz#d9a8a7b1b186a983191ddac90adce5be9d5abfb57496be1736024a4afc11a90b"
+binary linux-arm64 "https://nodejs.org/dist/v20.1.0/node-v20.1.0-linux-arm64.tar.xz#7219e00a19efd5f2f631a639d561fb65149b7602b3a103f9b47d5dd8e9be9527"
+binary linux-armv7l "https://nodejs.org/dist/v20.1.0/node-v20.1.0-linux-armv7l.tar.xz#591521a4a620ee89fee1afc7f3959fd9b8405027ca07c6903e45239a33a8c54b"
+binary linux-ppc64le "https://nodejs.org/dist/v20.1.0/node-v20.1.0-linux-ppc64le.tar.xz#07ff534cc8af412b4ad82a16b8099aa99c6491bdbdb6779a73aa8be5a290b5eb"
+binary linux-s390x "https://nodejs.org/dist/v20.1.0/node-v20.1.0-linux-s390x.tar.xz#8fe597af46c9cf16a1b1d56058318803539d70562f45cff8e5779d75c32652e7"
+binary linux-x64 "https://nodejs.org/dist/v20.1.0/node-v20.1.0-linux-x64.tar.xz#08e01d4ae29013f965dc8bde52d7f1abf780b5867ff40ade6bdd35bc9cbffd96"
+
+install_package "node-v20.1.0" "https://nodejs.org/dist/v20.1.0/node-v20.1.0.tar.xz#600f9e11860995814b9122b1ac5318f6ad564274784deed98d8a9206649436b5"
