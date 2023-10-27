@@ -1,0 +1,18 @@
+before_install_package() {
+  build_package_warn_eol "$1"
+}
+
+
+binary darwin-x64 "https://nodejs.org/dist/v7.7.2/node-v7.7.2-darwin-x64.tar.xz#dd29a543fd7b825af74c2a28033f831e9836fab717a7216544bb525d07da0396"
+binary linux-arm64 "https://nodejs.org/dist/v7.7.2/node-v7.7.2-linux-arm64.tar.xz#d2e39fdfd1253c822cd124e13f937f0857c2ec1958560c4b1a3b7f643329c7eb"
+binary linux-armv6l "https://nodejs.org/dist/v7.7.2/node-v7.7.2-linux-armv6l.tar.xz#daa8ef936c0729552f2496d63f61106b8464b781692dca070b24a36c53887c39"
+binary linux-armv7l "https://nodejs.org/dist/v7.7.2/node-v7.7.2-linux-armv7l.tar.xz#ec35b7b973a29a5a6bb858780384d6f6670c0727ff8473d75bdc10aa936338a0"
+binary linux-ppc64le "https://nodejs.org/dist/v7.7.2/node-v7.7.2-linux-ppc64le.tar.xz#1e00d8adfeffb2ca539fbd5e8e76cf7db976a6861250863a1b26fbf03e4c89b7"
+binary linux-ppc64 "https://nodejs.org/dist/v7.7.2/node-v7.7.2-linux-ppc64.tar.xz#6882302704893603735c036d176b78ee11c9b5ac490756d5dc344102510b7b06"
+binary linux-s390x "https://nodejs.org/dist/v7.7.2/node-v7.7.2-linux-s390x.tar.xz#073f197466a00f6e628add54f91bfbc73c70a6da78d61cb4321865e47d014e51"
+binary linux-x64 "https://nodejs.org/dist/v7.7.2/node-v7.7.2-linux-x64.tar.xz#3213a62818fb51696f9d958a72390c375fc9eb2ebef5d0270ff9fa52fa98fb7b"
+binary linux-x86 "https://nodejs.org/dist/v7.7.2/node-v7.7.2-linux-x86.tar.xz#4a18b8f720bbf9890506734722e6cd2e6b9a0246d0c74fa98f774eb367c51a36"
+binary sunos-x64 "https://nodejs.org/dist/v7.7.2/node-v7.7.2-sunos-x64.tar.xz#57597cf7a5616ab542ca79e2ffb6e40fc8e8bc3137ce5a3ea5a7d74a64ee80af"
+binary sunos-x86 "https://nodejs.org/dist/v7.7.2/node-v7.7.2-sunos-x86.tar.xz#1734af639e1de959aaee71f7b384a2ea6b6485526fed05a550a5d351dc84de38"
+
+install_package "node-v7.7.2" "https://nodejs.org/dist/v7.7.2/node-v7.7.2.tar.xz#e7448d8e44d32c2c63347c822508cf5c87b9662c07db290056fec66d37c4f584"
