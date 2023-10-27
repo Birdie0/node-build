@@ -1,0 +1,14 @@
+before_install_package() {
+  build_package_warn_eol "$1"
+}
+
+
+binary darwin-arm64 "https://nodejs.org/dist/v17.9.1/node-v17.9.1-darwin-arm64.tar.xz#efb2774f1bf35bd33f3de6b879009832561f060d1d013c2921abac5f903d9266"
+binary darwin-x64 "https://nodejs.org/dist/v17.9.1/node-v17.9.1-darwin-x64.tar.xz#f8a04e794b26c7bf00756e06ed89a21e4b0fbaf96c6a103181e4e15c8ebfb2d3"
+binary linux-arm64 "https://nodejs.org/dist/v17.9.1/node-v17.9.1-linux-arm64.tar.xz#47c29c0a5c833b50f763546a02f1d912d1b8d363ea8fe4174cd139860a754b47"
+binary linux-armv7l "https://nodejs.org/dist/v17.9.1/node-v17.9.1-linux-armv7l.tar.xz#a4622e78e4ebec21649a65706b233c2f7dfb0a9ac1ce769f1c580243aa3bdd84"
+binary linux-ppc64le "https://nodejs.org/dist/v17.9.1/node-v17.9.1-linux-ppc64le.tar.xz#a11e728331b2229ca274f386b40b5c2d30d6453dc15a5fda99200886b3df7e4a"
+binary linux-s390x "https://nodejs.org/dist/v17.9.1/node-v17.9.1-linux-s390x.tar.xz#216ee58e642237a0b48289a64c12b838c1344898733082833f9a3ae86ae26c5e"
+binary linux-x64 "https://nodejs.org/dist/v17.9.1/node-v17.9.1-linux-x64.tar.xz#2e5fcad237d934d1bced978b5a53a7586fe83aa3c20de5f4791601789dcb4f5c"
+
+install_package "node-v17.9.1" "https://nodejs.org/dist/v17.9.1/node-v17.9.1.tar.xz#a178bc446462fc93c16343a49de0f8939a49297240c098dfb0502b0974e44810"
