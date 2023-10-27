@@ -6,14 +6,18 @@ jobs:
   lts:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - run: npm ci
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 18.x
+        cache: yarn
+    - run: yarn install --frozen-lockfile
     - run: npm run lint:lts
 
   checksums:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with: { fetch-depth: 0 }
-    - run: npm ci
+    - run: yarn install --frozen-lockfile
     - run: npm run lint:checksums -- origin/${{github.base_ref}}

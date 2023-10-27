@@ -248,7 +248,7 @@ install_binary() {
 
   url="$1"
   name="$(basename "$url")"
-  name="${name%.tar.gz*}"
+  name="${name%.tar.xz*}"
   name="${name%.zip*}"
 
   install_package "$name" "$url" copy "${@:2}"
@@ -475,15 +475,27 @@ fetch_tarball() {
   fi
 
   local tar="tar"
-  local tar_args="xzf"
-  local package_filename="${package_name}.tar.gz"
+  local tar_args="xJf"
+  local package_filename="${package_name}.tar.xz"
+
+  if ! type -p xz >/dev/null; then
+    echo "warning: xz not found; consider installing \`xz-utils\` package" >&4
+  fi
+
+  if [ "$package_url" != "${package_url%gz}" ]; then
+    if ! type -p gzip >/dev/null; then
+      echo "warning: gzip not found; consider installing \`gzip\` package" >&4
+    fi
+    package_filename="${package_filename%.gz}.gz"
+    tar_args="${tar_args/J/z}"
+  fi
 
   if [ "$package_url" != "${package_url%bz2}" ]; then
     if ! type -p bzip2 >/dev/null; then
       echo "warning: bzip2 not found; consider installing \`bzip2\` package" >&4
     fi
     package_filename="${package_filename%.gz}.bz2"
-    tar_args="${tar_args/z/j}"
+    tar_args="${tar_args/J/j}"
   fi
 
   if [ "$package_url" != "${package_url%zip}" ]; then

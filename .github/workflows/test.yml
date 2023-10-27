@@ -8,5 +8,9 @@ jobs:
     runs-on: ${{ matrix.os }}-latest
     strategy: { matrix: { os: [ubuntu, macOS] }}
     steps:
-    - uses: actions/checkout@v3
-    - run: npm cit
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 18.x
+        cache: yarn
+    - run: yarn install --frozen-lockfilet

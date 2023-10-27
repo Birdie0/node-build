@@ -7,8 +7,12 @@ jobs:
   fix:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - run: npm ci
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 18.x
+        cache: yarn
+    - run: yarn install --frozen-lockfile
     - run: npm run lint:lts -- --fix
     - if: failure()
       uses: peter-evans/create-pull-request@v3

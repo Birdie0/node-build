@@ -7,8 +7,12 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - run: npm ci
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 18.x
+        cache: yarn
+    - run: yarn install --frozen-lockfile
     - run: npm run scrape-definitions
     - run: npm run lint:lts -- --fix
       continue-on-error: true
