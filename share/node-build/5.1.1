@@ -1,0 +1,15 @@
+before_install_package() {
+  build_package_warn_eol "$1"
+}
+
+
+binary darwin-x64 "https://nodejs.org/dist/v5.1.1/node-v5.1.1-darwin-x64.tar.xz#12566e3edfc24ad0efebcfa20ceed79ca87811bafe2c8b92432ff4614885c6ef"
+binary linux-arm64 "https://nodejs.org/dist/v5.1.1/node-v5.1.1-linux-arm64.tar.xz#5fefa92daf840076947a7ac2e97bcd2dcf35e1c632251b5ba73357318c8a7a1f"
+binary linux-armv6l "https://nodejs.org/dist/v5.1.1/node-v5.1.1-linux-armv6l.tar.xz#30011d4caca9d07e076c11beed7e2c67c0e4e3b20ac29cb80d479db1131ab78f"
+binary linux-armv7l "https://nodejs.org/dist/v5.1.1/node-v5.1.1-linux-armv7l.tar.xz#ac0b4e73a180406883d8c5700623966093f0442988facf024d59129fa9017434"
+binary linux-x64 "https://nodejs.org/dist/v5.1.1/node-v5.1.1-linux-x64.tar.xz#0de39988d293434eedb2c78e48dddfa5cb7c7f77cb4a1e6c2e4af4d44caf10aa"
+binary linux-x86 "https://nodejs.org/dist/v5.1.1/node-v5.1.1-linux-x86.tar.xz#e00bf38d9e24b4631ea0ff089ffeea39f37512900ca9e50628e716ecb0083184"
+binary sunos-x64 "https://nodejs.org/dist/v5.1.1/node-v5.1.1-sunos-x64.tar.xz#1c45a06cd78ef236cfb331a43677ca514b1e5f9d52603c608fae998986f43cfb"
+binary sunos-x86 "https://nodejs.org/dist/v5.1.1/node-v5.1.1-sunos-x86.tar.xz#3971913cfce5182b626b761e7435811837542424da8d84d146383b37bba6ff95"
+
+install_package "node-v5.1.1" "https://nodejs.org/dist/v5.1.1/node-v5.1.1.tar.xz#b3aaa01051576425afce753d30b16be67f391222ff445b0c716ccf9e12d1b94b"
