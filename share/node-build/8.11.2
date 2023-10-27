@@ -1,0 +1,17 @@
+before_install_package() {
+  build_package_warn_eol "$1"
+}
+
+
+binary darwin-x64 "https://nodejs.org/dist/v8.11.2/node-v8.11.2-darwin-x64.tar.xz#b6503f5566932cc231f581805a4ccc79eadfdad19d351e0c40a2055cff82fdc3"
+binary linux-arm64 "https://nodejs.org/dist/v8.11.2/node-v8.11.2-linux-arm64.tar.xz#c8e9833402277c1a5a31b41cc31c9cedad68ba87c2ef78aed6a3ced81af9da7f"
+binary linux-armv6l "https://nodejs.org/dist/v8.11.2/node-v8.11.2-linux-armv6l.tar.xz#6d0577d40fa61606d6c4da4bb329ca561f559dd11285af535e281b08a491ffd6"
+binary linux-armv7l "https://nodejs.org/dist/v8.11.2/node-v8.11.2-linux-armv7l.tar.xz#b7e2d9db8a3e6ddcb16238d08e256595874f5396c7404a9b1fe795b45654c83a"
+binary linux-ppc64le "https://nodejs.org/dist/v8.11.2/node-v8.11.2-linux-ppc64le.tar.xz#840d76db330bfc9c0b63aab61e7d79baeeccbb69833d2e3a5687013e47f03bbf"
+binary linux-s390x "https://nodejs.org/dist/v8.11.2/node-v8.11.2-linux-s390x.tar.xz#ed8069f679b1bbd911c11ad193ebfeddfac0d33724c359e8f2d88f02aba6c235"
+binary linux-x64 "https://nodejs.org/dist/v8.11.2/node-v8.11.2-linux-x64.tar.xz#213599127d24496cbf1cbb2a7c51060a3506d6b11132c59bb7f9f8a0edd210a7"
+binary linux-x86 "https://nodejs.org/dist/v8.11.2/node-v8.11.2-linux-x86.tar.xz#b380090649229d0ccc7afb8a6b432d60dd012da5e40dca903c7ac2d15f33a7a1"
+binary sunos-x64 "https://nodejs.org/dist/v8.11.2/node-v8.11.2-sunos-x64.tar.xz#f88abcfeeb8c49aaf9d6a39a09311c372cc3f711e14456a3c515aba22cf4ddbe"
+binary sunos-x86 "https://nodejs.org/dist/v8.11.2/node-v8.11.2-sunos-x86.tar.xz#f6cd3779b9c770ce82c2082084b255a790530d869fdaaf5900d5ff29a9362d18"
+
+install_package "node-v8.11.2" "https://nodejs.org/dist/v8.11.2/node-v8.11.2.tar.xz#539946c0381809576bed07424a35fc1740d52f4bd56305d6278d9e76c88f4979"
