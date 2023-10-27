@@ -1,0 +1,14 @@
+before_install_package() {
+  build_package_warn_lts_maintenance "$1"
+}
+
+
+binary darwin-arm64 "https://nodejs.org/dist/v18.2.0/node-v18.2.0-darwin-arm64.tar.xz#c73ea354c84c3bd9889c064346b6e3aaa292c33f1fb4a4793cdee7a155a5a67e"
+binary darwin-x64 "https://nodejs.org/dist/v18.2.0/node-v18.2.0-darwin-x64.tar.xz#e4d277afacb96e7d492dab3613a1612853e9a67a3a528dfc7e124a4c7370f0d6"
+binary linux-arm64 "https://nodejs.org/dist/v18.2.0/node-v18.2.0-linux-arm64.tar.xz#ad2c1e533db66cfb47e770c1f4af6807e1ce68cdce8aa230d26f025d0926d0c4"
+binary linux-armv7l "https://nodejs.org/dist/v18.2.0/node-v18.2.0-linux-armv7l.tar.xz#1d7c6c8fb0715a501b889a58de9d3c7a54a0c62578ea4109d2b17adaf12a99f7"
+binary linux-ppc64le "https://nodejs.org/dist/v18.2.0/node-v18.2.0-linux-ppc64le.tar.xz#053824eeb17a1afea11e437a2ae9061568e9ab95daa0ea818cfcd4246bfd950c"
+binary linux-s390x "https://nodejs.org/dist/v18.2.0/node-v18.2.0-linux-s390x.tar.xz#1dbe758651e66ba47b9f1a5650a295f424fe36bcd709e7ef71f9a4668c2f3081"
+binary linux-x64 "https://nodejs.org/dist/v18.2.0/node-v18.2.0-linux-x64.tar.xz#22f9d2e71fe682091f1ec5f8be5703868069f5547a866bdddc8e661040b28527"
+
+install_package "node-v18.2.0" "https://nodejs.org/dist/v18.2.0/node-v18.2.0.tar.xz#2305b15ebf5547474e905b5002f9ba99c7eeef01d7394dfe6f3846cc6bcad66d"

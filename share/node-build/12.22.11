@@ -1,0 +1,14 @@
+before_install_package() {
+  build_package_warn_eol "$1"
+}
+
+
+binary darwin-x64 "https://nodejs.org/dist/v12.22.11/node-v12.22.11-darwin-x64.tar.xz#185b854f27db8a7fcce90569e0b1a0373bb58e148494f1cc4f29b26fd322caf3"
+binary linux-arm64 "https://nodejs.org/dist/v12.22.11/node-v12.22.11-linux-arm64.tar.xz#86664fe446cb9c76c8135da2fce8b0ecece18339a4f9d84d167ad4b2046701f9"
+binary linux-armv7l "https://nodejs.org/dist/v12.22.11/node-v12.22.11-linux-armv7l.tar.xz#45538ad6872a91fa22d1ccd77e8e70c4536797de7109a7544c9bfa24be2928ac"
+binary linux-ppc64le "https://nodejs.org/dist/v12.22.11/node-v12.22.11-linux-ppc64le.tar.xz#c2b1df30152abcb9caa569c5a38e0490efc274d4c12a5c845c9947a8c19b6401"
+binary linux-s390x "https://nodejs.org/dist/v12.22.11/node-v12.22.11-linux-s390x.tar.xz#052a652d8f52d23eabd708db78c4156a806a99157e3b73d9502770c55aeee4ad"
+binary linux-x64 "https://nodejs.org/dist/v12.22.11/node-v12.22.11-linux-x64.tar.xz#53cde07f114fb13cd39dbb09e9bd8bb25e87f367e8ff0f3786422c6a58bac78d"
+binary sunos-x64 "https://nodejs.org/dist/v12.22.11/node-v12.22.11-sunos-x64.tar.xz#ab1ed6f63fc5989225a6b152aa3f4f3140ed80fcf462f61b5f5790f2a7c82d7c"
+
+install_package "node-v12.22.11" "https://nodejs.org/dist/v12.22.11/node-v12.22.11.tar.xz#5e81da26fd5b1f89714483abaa68e3da304523e4334c78c49bfa7a03ee78d6f1"

@@ -1,0 +1,14 @@
+before_install_package() {
+  build_package_warn_eol "$1"
+}
+
+
+binary darwin-arm64 "https://nodejs.org/dist/v16.14.1/node-v16.14.1-darwin-arm64.tar.xz#5e0929ff5c45571a9c6d9c2671d758d85a903c7c7b8104a00e2284fff3a7d4ca"
+binary darwin-x64 "https://nodejs.org/dist/v16.14.1/node-v16.14.1-darwin-x64.tar.xz#dabd549c637b2d46c5e93482012972b40892e1aa537e7cf74e3308c1c7080b45"
+binary linux-arm64 "https://nodejs.org/dist/v16.14.1/node-v16.14.1-linux-arm64.tar.xz#2d45cdfd1c2e24f8b3d8e75df40a76d73cad9a56c82f637962d931a7c937cd31"
+binary linux-armv7l "https://nodejs.org/dist/v16.14.1/node-v16.14.1-linux-armv7l.tar.xz#467aba9eacad85e65836eec52d5a9f88e699c90395b64356d13b678fb5eee2a7"
+binary linux-ppc64le "https://nodejs.org/dist/v16.14.1/node-v16.14.1-linux-ppc64le.tar.xz#56036c60f925193aa273bf993e0524e9b7dbbd654e77f67e55c3a81dc2484d19"
+binary linux-s390x "https://nodejs.org/dist/v16.14.1/node-v16.14.1-linux-s390x.tar.xz#ebcad8a4c59c1454d08b6232a96ca0d27b70a83cc0a9d00f067bcdc038825568"
+binary linux-x64 "https://nodejs.org/dist/v16.14.1/node-v16.14.1-linux-x64.tar.xz#acaa44a1a224265b238732ce5255d91429b25654de5be70f84a382cc5b6301c2"
+
+install_package "node-v16.14.1" "https://nodejs.org/dist/v16.14.1/node-v16.14.1.tar.xz#e1687d16582134d9aef2b4e26e83ce3c253184e63061d5b5d334a11ddc95b763"

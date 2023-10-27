@@ -1,0 +1,14 @@
+before_install_package() {
+  build_package_warn_lts_maintenance "$1"
+}
+
+
+binary darwin-arm64 "https://nodejs.org/dist/v18.6.0/node-v18.6.0-darwin-arm64.tar.xz#19ae8111bf2e8ba914f722a04fa68bc1cb27eab07aaac8f92a6f78d96e9c3bde"
+binary darwin-x64 "https://nodejs.org/dist/v18.6.0/node-v18.6.0-darwin-x64.tar.xz#7ab90206566873f30426a6c524b7b253f530acb568bfe6a59b4f929d8ca1c7fb"
+binary linux-arm64 "https://nodejs.org/dist/v18.6.0/node-v18.6.0-linux-arm64.tar.xz#2f7d5b0e1bd9d52deecbf257cceafdf3c513bec667491c152d08f36317de5714"
+binary linux-armv7l "https://nodejs.org/dist/v18.6.0/node-v18.6.0-linux-armv7l.tar.xz#f564028b6ba00f7fb2864df8a85fbde53c463d6cebe9a23aa4e65a60bd257673"
+binary linux-ppc64le "https://nodejs.org/dist/v18.6.0/node-v18.6.0-linux-ppc64le.tar.xz#cba65d1158141a0fed863adee39cdc5872c202ccaad5bd3c877eddcc9f5809ba"
+binary linux-s390x "https://nodejs.org/dist/v18.6.0/node-v18.6.0-linux-s390x.tar.xz#f6e17f9a01e1669605b78ffca6b6ce95ee2319e1349fa3af3705db569fcafe8c"
+binary linux-x64 "https://nodejs.org/dist/v18.6.0/node-v18.6.0-linux-x64.tar.xz#6a33e0ad02c9a3ce0ab298bba95055d45df05dfe0810e871ab5087d9f7852017"
+
+install_package "node-v18.6.0" "https://nodejs.org/dist/v18.6.0/node-v18.6.0.tar.xz#5f8b0c33a12fcaec9643b4367a5daa94314bf26f9b75b5f431c4f14b37bc054c"

@@ -1,0 +1,17 @@
+before_install_package() {
+  build_package_warn_eol "$1"
+}
+
+
+binary darwin-x64 "https://nodejs.org/dist/v9.5.0/node-v9.5.0-darwin-x64.tar.xz#af09d9bac919c06810d0194a508bc93261f676aa98b27d384cb980727cb8c1cd"
+binary linux-arm64 "https://nodejs.org/dist/v9.5.0/node-v9.5.0-linux-arm64.tar.xz#d6a98a51c032963014f606acc80babb456f3dc4c041534ca565f573a2382b253"
+binary linux-armv6l "https://nodejs.org/dist/v9.5.0/node-v9.5.0-linux-armv6l.tar.xz#8c098587b2c9c9a85ddea52f51c9526118263f1b0cc80cc32230cf2b7ddbaae9"
+binary linux-armv7l "https://nodejs.org/dist/v9.5.0/node-v9.5.0-linux-armv7l.tar.xz#0f9ca7a2eeb45243d035bf30597488d758b495ab2ef6687b2773297b0389dbe5"
+binary linux-ppc64le "https://nodejs.org/dist/v9.5.0/node-v9.5.0-linux-ppc64le.tar.xz#3c2fd37534de95ff806b491f4fa9f8589904c6b71f387425dc12291aac83e0f3"
+binary linux-s390x "https://nodejs.org/dist/v9.5.0/node-v9.5.0-linux-s390x.tar.xz#affe4ec41b5a55f1c417168a6f68783bad6927247a1a3325ce9129284714330e"
+binary linux-x64 "https://nodejs.org/dist/v9.5.0/node-v9.5.0-linux-x64.tar.xz#76dd38bb5a16a610894353228ef020653f81209a2e509d38aee78ace4410599e"
+binary linux-x86 "https://nodejs.org/dist/v9.5.0/node-v9.5.0-linux-x86.tar.xz#672e9d9aa7e8edb5529069e9787c1dec290963e600d08fdfbe404b8f8ac39a44"
+binary sunos-x64 "https://nodejs.org/dist/v9.5.0/node-v9.5.0-sunos-x64.tar.xz#72fe17f45b67911355944913ee39fc1ba9bd43dbe0cf16478e19cc892cdbc2ee"
+binary sunos-x86 "https://nodejs.org/dist/v9.5.0/node-v9.5.0-sunos-x86.tar.xz#274e01b1b5c2a9b55d4afec16c55b6bb2bd52095b20ab905599cdf42cfcde7bf"
+
+install_package "node-v9.5.0" "https://nodejs.org/dist/v9.5.0/node-v9.5.0.tar.xz#666b463a378b65bb83afb8f2c271865e03804d5930c95688ab4020c5dcd5146d"

@@ -1,0 +1,13 @@
+before_install_package() {
+  build_package_warn_eol "$1"
+}
+
+
+binary darwin-x64 "https://nodejs.org/dist/v14.19.3/node-v14.19.3-darwin-x64.tar.xz#7d828c43177f549415523ef64f291073328c869b01c38c46a76fac99435732d5"
+binary linux-arm64 "https://nodejs.org/dist/v14.19.3/node-v14.19.3-linux-arm64.tar.xz#f7f2f46ae597001b99f0f80cc983e858b7f82eaf97c73cb9fe808658f5a528a2"
+binary linux-armv7l "https://nodejs.org/dist/v14.19.3/node-v14.19.3-linux-armv7l.tar.xz#8e97bd0c76fafe99cb6395ba027510341d8f485219df941bff81b7c7d1355ea8"
+binary linux-ppc64le "https://nodejs.org/dist/v14.19.3/node-v14.19.3-linux-ppc64le.tar.xz#8ec8e9643bf0e48033a4941a2a9f8a029d162fa2cd7819fa547f2bd69ae4f5c9"
+binary linux-s390x "https://nodejs.org/dist/v14.19.3/node-v14.19.3-linux-s390x.tar.xz#c23c7634657a07a36799a798a4716da45952859e04b636d200a2b453eb284495"
+binary linux-x64 "https://nodejs.org/dist/v14.19.3/node-v14.19.3-linux-x64.tar.xz#fe10b10f6164df733c14db4e28c9f0686e5f54eb3ebc6e4577a2e5e9dafcc6a0"
+
+install_package "node-v14.19.3" "https://nodejs.org/dist/v14.19.3/node-v14.19.3.tar.xz#5cf45b1f1aca77523acf36240c1d53a999279070a7711eabf23346f88b0cc994"

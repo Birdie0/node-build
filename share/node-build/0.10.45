@@ -1,0 +1,8 @@
+binary darwin-x64 "https://nodejs.org/dist/v0.10.45/node-v0.10.45-darwin-x64.tar.xz#f8acb114faea28a6d58b35025e3fd37b5bb9e8fa9eac4a3796d225c16ba541de"
+binary darwin-x86 "https://nodejs.org/dist/v0.10.45/node-v0.10.45-darwin-x86.tar.xz#9544df4ab211e81601a02b681bf8fdec834efde4174ecf0a3f69fec9eab012eb"
+binary linux-x64 "https://nodejs.org/dist/v0.10.45/node-v0.10.45-linux-x64.tar.xz#2fd840bf79480863904860c63f615615077dbc88bd44669eb93c9bf216b4eaf0"
+binary linux-x86 "https://nodejs.org/dist/v0.10.45/node-v0.10.45-linux-x86.tar.xz#2e63e46a818777c3ba57a10406e6e1ab6ceee3b4b861eb195574659e5302ddae"
+binary sunos-x64 "https://nodejs.org/dist/v0.10.45/node-v0.10.45-sunos-x64.tar.xz#69197c4adf23ff4a3c6c8fa5c35b9ab4d9906015624ef7a8a37d6573535d6116"
+binary sunos-x86 "https://nodejs.org/dist/v0.10.45/node-v0.10.45-sunos-x86.tar.xz#b764e0ad9a80a4a02abcfd33565aaf49d0345c43d8ce7e00b35e8a82cfa1102c"
+
+install_package "node-v0.10.45" "https://nodejs.org/dist/v0.10.45/node-v0.10.45.tar.xz#a71070ea7aece9c94450b45102f2d1be42f0add168dd9c9701e9032d363bd4fa"

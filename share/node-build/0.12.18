@@ -1,0 +1,7 @@
+binary darwin-x64 "https://nodejs.org/dist/v0.12.18/node-v0.12.18-darwin-x64.tar.xz#5104237219f782e06e7b432fdd8a18939a145b20f4d175ff8aadd25685c54e33"
+binary darwin-x86 "https://nodejs.org/dist/v0.12.18/node-v0.12.18-darwin-x86.tar.xz#b8d9d9c08412e771ff7bf0ec91d511e10d4d24067bf8de9e6f24a5afb095f3c8"
+binary linux-x64 "https://nodejs.org/dist/v0.12.18/node-v0.12.18-linux-x64.tar.xz#5d18077263e6d43b95015adf968a17b312ead1a275f894d40494be61210fa91b"
+binary linux-x86 "https://nodejs.org/dist/v0.12.18/node-v0.12.18-linux-x86.tar.xz#039f1bfdcb1b56964f7e933f960c800621a88d51371914a812a3c58d951cfe1e"
+binary sunos-x86 "https://nodejs.org/dist/v0.12.18/node-v0.12.18-sunos-x86.tar.xz#77bb7c66e228e2b602813d8f393e469182b7d647b610aca4ffaceb6ef77e2bb9"
+
+install_package "node-v0.12.18" "https://nodejs.org/dist/v0.12.18/node-v0.12.18.tar.xz#aec65fae74d1b8d649c145f8ede70afa481002af49cca3336368a7502cb0dc1f"
