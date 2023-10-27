@@ -1,0 +1,9 @@
+binary darwin-arm64 "https://nodejs.org/dist/v21.0.0/node-v21.0.0-darwin-arm64.tar.xz#f24b1274e89226e2d88995339ada4d959d857dfa976f460004fef49e21bf464a"
+binary darwin-x64 "https://nodejs.org/dist/v21.0.0/node-v21.0.0-darwin-x64.tar.xz#0496dff3a85aff04358b9bb488d2f0088318d9a649fb82bcaefbb2a8d0f5def7"
+binary linux-arm64 "https://nodejs.org/dist/v21.0.0/node-v21.0.0-linux-arm64.tar.xz#953b301b632476a115b38c107bd79b2ccb335ef59ac8b1a6b2e9c8e4616080c6"
+binary linux-armv7l "https://nodejs.org/dist/v21.0.0/node-v21.0.0-linux-armv7l.tar.xz#ce03bc34058a9ac96ddffaf6d1684eef3f13a71cddd3e439f203dced20b29564"
+binary linux-ppc64le "https://nodejs.org/dist/v21.0.0/node-v21.0.0-linux-ppc64le.tar.xz#77014f10cd66c828e23b5a259f4b3a9f49b87fd494c355d93ec8e1fef16c23af"
+binary linux-s390x "https://nodejs.org/dist/v21.0.0/node-v21.0.0-linux-s390x.tar.xz#4eca9737f26d631d637fb650d0776ee5112476055a7111a78fdda494abbabf65"
+binary linux-x64 "https://nodejs.org/dist/v21.0.0/node-v21.0.0-linux-x64.tar.xz#06e748d61c5760fc7fd95f22227ed71d61b57bed6ad84e6d63e905d64170a8fc"
+
+install_package "node-v21.0.0" "https://nodejs.org/dist/v21.0.0/node-v21.0.0.tar.xz#bc56192b951ad183506dca9acf7a4d0c02591140b7fc8f25661375199266f3f2"
