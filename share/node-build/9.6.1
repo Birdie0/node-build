@@ -1,0 +1,17 @@
+before_install_package() {
+  build_package_warn_eol "$1"
+}
+
+
+binary darwin-x64 "https://nodejs.org/dist/v9.6.1/node-v9.6.1-darwin-x64.tar.xz#2135db4d515ae4e8ad2c116cdd208b573b4a9c1c8f6160213da41e59ff5be8b5"
+binary linux-arm64 "https://nodejs.org/dist/v9.6.1/node-v9.6.1-linux-arm64.tar.xz#6246c85acab2dd92463fa1c456db31a24cd7b50b3fa556c4976c5a91473b8c8f"
+binary linux-armv6l "https://nodejs.org/dist/v9.6.1/node-v9.6.1-linux-armv6l.tar.xz#230976ad605b1052474c9f52e27d18a2c9c6ac7d87e8075ec80ad48cc0802e49"
+binary linux-armv7l "https://nodejs.org/dist/v9.6.1/node-v9.6.1-linux-armv7l.tar.xz#c5f5174d4ef11c7751e8bf246809d972a44cd179091a5e305244c4cfeb46c4a4"
+binary linux-ppc64le "https://nodejs.org/dist/v9.6.1/node-v9.6.1-linux-ppc64le.tar.xz#fddc58ddf40020358a83ee0e976486557f64de78bfcbb3dfd24833394fa010e5"
+binary linux-s390x "https://nodejs.org/dist/v9.6.1/node-v9.6.1-linux-s390x.tar.xz#e235a5853c70643216113ef31ee01debe266bcbc1a609429576233cec7646790"
+binary linux-x64 "https://nodejs.org/dist/v9.6.1/node-v9.6.1-linux-x64.tar.xz#d38f1707faccc54fae3cb201c25b02c4a3474d2c409c64f2a1d08925b238f8ad"
+binary linux-x86 "https://nodejs.org/dist/v9.6.1/node-v9.6.1-linux-x86.tar.xz#f5da57eb9330a55450d1d33821d0ef8537da2d3ff0251cb1943859f4ad3add38"
+binary sunos-x64 "https://nodejs.org/dist/v9.6.1/node-v9.6.1-sunos-x64.tar.xz#d2465dcec4190d24c0cc548e417d1f0542172025f39ce6b5992b0f679489effc"
+binary sunos-x86 "https://nodejs.org/dist/v9.6.1/node-v9.6.1-sunos-x86.tar.xz#c299c6c1d29846e3e0d3de273323bb95d5e23548ad967210cc6eb58741a2546c"
+
+install_package "node-v9.6.1" "https://nodejs.org/dist/v9.6.1/node-v9.6.1.tar.xz#b84c024d97b3f09ab55e352f91e038066afb44f8c49d13fdc298ffd8383d1112"
