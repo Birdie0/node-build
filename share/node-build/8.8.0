@@ -1,0 +1,18 @@
+before_install_package() {
+  build_package_warn_eol "$1"
+}
+
+
+binary darwin-x64 "https://nodejs.org/dist/v8.8.0/node-v8.8.0-darwin-x64.tar.xz#b2f1440a7669af1e76be7ee7b275c97cbe79ee41a7e6278518d00b5a142d8d12"
+binary linux-arm64 "https://nodejs.org/dist/v8.8.0/node-v8.8.0-linux-arm64.tar.xz#454617ff94882d9a81dca0840065fb5a928ff68e8e8efe7c1748d996ab757b2e"
+binary linux-armv6l "https://nodejs.org/dist/v8.8.0/node-v8.8.0-linux-armv6l.tar.xz#acd924e0bd5fe95e7fad2a97d1e5ffd43e67e6f880e1947dc805a9fe4546b31e"
+binary linux-armv7l "https://nodejs.org/dist/v8.8.0/node-v8.8.0-linux-armv7l.tar.xz#68b6b2393f0d379a8c3e2f7416e4577996047839fae8076e479a19ae0d90e053"
+binary linux-ppc64le "https://nodejs.org/dist/v8.8.0/node-v8.8.0-linux-ppc64le.tar.xz#942aade9651a425b171d2699d8c849eb065e49885d6e346c3bf23a5bc9f0b503"
+binary linux-ppc64 "https://nodejs.org/dist/v8.8.0/node-v8.8.0-linux-ppc64.tar.xz#9eccec7aa1c983ebdb2688f1788b432c5c8908d98c593fd989f0755249f90866"
+binary linux-s390x "https://nodejs.org/dist/v8.8.0/node-v8.8.0-linux-s390x.tar.xz#5405e9f28db36d798253e74d6a52764a91170bf8578fc793620b598c958c5522"
+binary linux-x64 "https://nodejs.org/dist/v8.8.0/node-v8.8.0-linux-x64.tar.xz#4304c297f41085ac1f7a6a8e68496d9fd5aa3b92590e7c3c6015a23939767e72"
+binary linux-x86 "https://nodejs.org/dist/v8.8.0/node-v8.8.0-linux-x86.tar.xz#6257c617a12eb3a4c5381629c5a8a6166b20efd853ae09fdb1ac10c2c259cdd1"
+binary sunos-x64 "https://nodejs.org/dist/v8.8.0/node-v8.8.0-sunos-x64.tar.xz#3233c927cc9fb99d17a2bab8f0fdf510b1e3b3b07a0eafbb0690da585324ab28"
+binary sunos-x86 "https://nodejs.org/dist/v8.8.0/node-v8.8.0-sunos-x86.tar.xz#a143ba487b1aba035634eec41ad03ba7681b7a1ed78d70f551b9471f3df01dc8"
+
+install_package "node-v8.8.0" "https://nodejs.org/dist/v8.8.0/node-v8.8.0.tar.xz#854f32d27cd62895a13a6af43b87e0542f512f40af960244d15cf16da0914ecf"
