@@ -486,6 +486,14 @@ fetch_tarball() {
     tar_args="${tar_args/z/j}"
   fi
 
+  if [ "$package_url" != "${package_url%xz}" ]; then
+    if ! type -p xz >/dev/null; then
+      echo "warning: xz not found; consider installing \`xz-utils\` package" >&4
+    fi
+    package_filename="${package_filename%.gz}.xz"
+    tar_args="${tar_args/z/J}"
+  fi
+
   if [ "$package_url" != "${package_url%zip}" ]; then
     tar="unzip"
     tar_args="-oq"
